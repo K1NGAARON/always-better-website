@@ -307,7 +307,6 @@ table .fa {
     margin: 20px auto;
 }
 
-
 .benefits .wrapper,
 .regenerative .wrapper {
     gap: 40px;
@@ -316,6 +315,20 @@ table .fa {
 .benefits .wrapper .item,
 .regenerative .wrapper .item {
     flex: 1 0 25%
+}
+
+.benefits .wrapper .item img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.benefits .wrapper .item h5,
+.benefits .wrapper .item p {
+    padding: 0 30px;
+}
+
+.benefits .wrapper .item p {
+    padding-bottom: 20px;
 }
 
 .form-wrapper p {
