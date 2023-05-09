@@ -122,7 +122,7 @@ img.border-radius {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     margin: 60px auto;
     padding: 0 30px;
 }
@@ -187,8 +187,13 @@ img.border-radius {
 }
 
 .btn.ghost.no-border {
+    font-size: 14px;
     padding: 0;
     border: none;
+}
+
+.btn.ghost.no-border i {
+    padding-left: 5px;
 }
 
 .btn.ghost.white {
@@ -207,6 +212,7 @@ img.border-radius {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    box-shadow: var(--boxShadow);
 }
 
 .overlay {
@@ -424,6 +430,10 @@ img.border-radius {
 .wrapper.house .item a {
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.wrapper .item .btn.ghost.no-border {
+    margin-top: auto;
 }
 
 

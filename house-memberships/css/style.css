@@ -23,7 +23,7 @@
 
 .section .wrapper {
     margin: 40px auto;
-    gap: 60px;
+    gap: 40px;
 }
 
 .banner .subheadline {
@@ -192,7 +192,7 @@
 }
 
 .wrapper .item h5 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -226,7 +226,7 @@
 .work .wrapper {
     width: 80%;
     flex-flow: row wrap;
-    gap: 60px;
+    gap: 40px;
     margin: 40px auto 0 auto;
 }
 
@@ -287,10 +287,30 @@ table .fa {
 }
 
 
+.wrapper.prices .item {
+    padding: 30px;
+    align-items: center;
+    box-shadow: var(--boxShadow);
+}
+
+.wrapper.prices .divider {
+    border-color: var(--primary);
+    width: 60%;
+}
+
+.wrapper.prices .item ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+}
+
 
 .benefits .wrapper,
 .regenerative .wrapper {
-    gap: 60px;
+    gap: 40px;
 }
 
 .benefits .wrapper .item,
