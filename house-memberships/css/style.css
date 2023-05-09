@@ -1,0 +1,340 @@
+.section .row.gap-60 {
+    gap: 60px;
+}
+
+.section h1,
+.section h2 {
+    line-height: 1;
+}
+
+.coaching.section h2 {
+    text-align: left;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 58px;
+}
+
+.banner h1,
+.banner p {
+    width: 55%;
+}
+
+.section .wrapper {
+    margin: 40px auto;
+    gap: 60px;
+}
+
+.banner .subheadline {
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.section h2 {
+    font-size: 46px;
+    text-align: center;
+    width: 50%;
+}
+
+.section h2.left {
+    text-align: left;
+    width: 100%;
+}
+
+.section h2.width-100 {
+    width: 100%;
+}
+
+.section.black h2,
+.section.black p  {
+    color: var(--white);
+}
+
+.banner {
+    background-color: var(--black);
+}
+
+.banner .subheadline {
+    color: var(--white);
+}
+
+.banner,
+.banner .row {
+    min-height: 70vh;
+    color: var(--white);
+}
+
+.banner .row {
+    padding-top: 40px;
+}
+
+.steps.section .row h2 {
+    font-size: 56px;
+    text-align: center;
+    width: 60%;
+}
+
+.steps.section .row .step {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.steps.section .row hr {
+    color: var(--white);
+    opacity: 0.3;
+    width: 40%;
+    margin: 40px auto;
+}
+
+.what .fa {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.what .row .col {
+    flex: 1 0;
+}
+
+.what .row .col p {
+    text-align: center;
+}
+
+.what .wrapper {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.what .container {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.what .container .item {
+    flex: 1 0 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+    border: 1px solid #c2ecfb;
+}
+
+.what .container .item p {
+    text-align: left;
+}
+
+.what .container.active .item {
+    border: 1px solid var(--primary);
+}
+
+.what .btn {
+    margin-top: 60px;
+}
+
+.how .faq .accordion-list .accordion-item .accordion-head h5 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.how .faq .accordion-list .accordion-item .accordion-body p {
+    color: var(--white);
+    opacity: 0.6;
+}
+
+.how .faq .accordion-item:nth-child(1) {
+    border-top: none;
+}
+
+.how .faq .accordion-item {
+    border-top: 1px solid #ffffff60;
+    border-radius: 0;
+}
+
+.how .wrapper {
+    margin-top: 40px;
+}
+
+.reviews .wrapper {
+    gap: 20px;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reviews .item {
+    flex: 1 0;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 30px;
+    box-shadow: var(--boxShadow);
+    border-radius: var(--borderRadius);
+}
+
+.reviews .item.black {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.reviews .item .review {
+    font-weight: 700;
+}
+
+.reviews .item .author {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.wrapper .item h5 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.coaches .wrapper {
+    width: 100%;
+    gap: 20px;
+}
+
+.coaches .wrapper .card {
+    flex: 1 0 25%;
+    position: relative;
+}
+
+.coaches .wrapper .card,
+.coaches .wrapper .card img {
+    border-radius: var(--borderRadius);
+}
+
+.coaches .wrapper .card .content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.coaches .wrapper .card .content h5 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.work .wrapper {
+    width: 80%;
+    flex-flow: row wrap;
+    gap: 60px;
+    margin: 40px auto 0 auto;
+}
+
+.work .wrapper .item {
+    flex: 1 0 45%;
+}
+
+.work .wrapper .item h5 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.work .wrapper .item p {
+    opacity: 0.6;
+    font-size: 20px;
+    width: 75%;
+}
+
+table {
+    width: 100%;
+    margin-top: 40px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+table tr td:nth-child(1) {
+    /* color: var(--white);
+    border-color: var(--white);
+    background-color: var(--black); */
+    font-weight: 700;
+}
+
+table tr th {
+    border: none;
+}
+
+table .fa {
+    color: var(--primary);
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+}
+
+.personal-coaching, 
+.item img,
+.item {
+    border-radius: var(--borderRadius);
+}
+
+
+
+.benefits .wrapper,
+.regenerative .wrapper {
+    gap: 60px;
+}
+
+.benefits .wrapper .item,
+.regenerative .wrapper .item {
+    flex: 1 0 25%
+}
+
+.form-wrapper p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+@media (max-width: 560px) {
+    .banner.section h1 {
+        font-size: 30px;
+    }
+
+    .section h2 {
+        font-size: 26px;
+    }
+
+    .form-wrapper input::placeholder {
+        font-size: 14px;
+    }
+
+    .form-wrapper .btn,
+    .section .row .btn {
+        font-size: 10px;
+    }
+    
+    .header.section .nav::before {
+        background-color: var(--primary);
+    }
+
+    .header.active .topnav-content-sm svg {
+        fill: var(--primary);
+    }
+
+    .header.active .btn {
+        background-color: transparent;
+    }
+
+    .form-wrapper .form-row {
+        gap: 5px;
+    }
+}
