@@ -34,7 +34,7 @@
 .section h2 {
     font-size: 46px;
     text-align: center;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .section h2.left {

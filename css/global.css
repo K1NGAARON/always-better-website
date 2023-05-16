@@ -140,6 +140,15 @@ img.border-radius {
     align-items: flex-start;
 }
 
+.section .row.flex-col.align-start h2 {
+    text-align: left;
+    width: 55%;
+}
+
+.section .row.flex-col.align-start p {
+    width: 55%;
+}
+
 .section .row.gap-20 {
     gap: 20px;
 }
