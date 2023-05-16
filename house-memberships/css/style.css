@@ -305,6 +305,28 @@ table .fa {
     border: 2px solid var(--primary);
 }
 
+.other-services .wrapper .item .item-logo {
+    border-radius: 0;
+    max-width: 70%;
+    margin-top: 20px;
+}
+
+.other-services .wrapper .item img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.other-services .wrapper .item .item-logo,
+.other-services .wrapper .item .btn {
+    padding: 0 30px;
+}
+
+.other-services .wrapper .item .btn {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
 .personal-coaching, 
 .item img,
 .item {

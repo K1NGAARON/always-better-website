@@ -63,5 +63,5 @@ function howItWorks(e) {
 }
 
 $(document).ready(function() {
-    addCoaches();
+    // addCoaches();
 });

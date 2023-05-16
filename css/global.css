@@ -295,6 +295,10 @@ img.border-radius {
     transform: scale(1.02);
 }
 
+.faq {
+    width: 100%;
+}
+
 .faq .accordion-list {
     display: flex;
     flex-direction: column;
