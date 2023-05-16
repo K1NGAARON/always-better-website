@@ -13,7 +13,7 @@
 }
 
 .banner h1 {
-    font-size: 58px;
+    font-size: 44px;
 }
 
 .banner h1,
@@ -243,6 +243,31 @@
     opacity: 0.6;
     font-size: 20px;
     width: 75%;
+}
+
+.events .wrapper .item img,
+.expertise .wrapper .item img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.expertise .wrapper .item h5,
+.expertise .wrapper .item p {
+    padding: 0 30px;
+}
+
+.expertise .wrapper .item p {
+    padding-bottom: 20px;
+}
+
+.events .wrapper .item h5,
+.events .wrapper .item p,
+.events .wrapper .item a {
+    padding: 0 30px;
+}
+
+.events .wrapper .item a {
+    margin-bottom: 20px;
 }
 
 table {
