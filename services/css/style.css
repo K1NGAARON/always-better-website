@@ -1,0 +1,26 @@
+.wrapper.services-wrapper {
+    justify-content: center;
+}
+
+.wrapper.services-wrapper .item {
+    flex: 0 1 25%;
+}
+
+.wrapper.services-wrapper .item img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.wrapper.services-wrapper .item h5,
+.wrapper.services-wrapper .item p,
+.wrapper.services-wrapper .item a {
+    padding: 0 20px;
+}
+
+.wrapper.services-wrapper .item h5 {
+    margin-top: 20px;
+}
+
+.wrapper.services-wrapper .item a {
+    margin-bottom: 20px;
+}
