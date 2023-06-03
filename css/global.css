@@ -416,7 +416,8 @@ img.border-radius {
     background-color: var(--black);
 }
 
-.wrapper.house .item {
+.wrapper.house-wrapper .item {
+    flex: 0 1 25%;
     box-shadow: var(--boxShadow);
 }
 
@@ -425,22 +426,27 @@ img.border-radius {
     background-color: var(--black);
 }
 
-.section .wrapper.house {
+.section .wrapper.house-wrapper {
     gap: 40px;
+    justify-content: center;
 }
 
-.wrapper.house .item h5,
-.wrapper.house .item p,
-.wrapper.house .item a {
-    padding: 0 30px;
+.wrapper.house-wrapper .item h5,
+.wrapper.house-wrapper .item p,
+.wrapper.house-wrapper .item a {
+    padding: 0 20px;
 }
 
-.wrapper.house .item img {
+.wrapper.house-wrapper .item p {
+    margin-bottom: 20px;
+}
+
+.wrapper.house-wrapper .item img {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.wrapper.house .item a {
+.wrapper.house-wrapper .item a {
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -451,6 +457,10 @@ img.border-radius {
 
 
 @media (max-width: 560px) {
+    .wrapper.house-wrapper .item {
+        flex: 1 0 50%;
+    }
+
     .section .row .col {
         flex: 1 0 100%;
         width: 100%;

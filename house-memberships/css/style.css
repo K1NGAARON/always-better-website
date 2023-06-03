@@ -33,8 +33,12 @@
 
 .section h2 {
     font-size: 46px;
-    text-align: center;
+    /* text-align: center; */
     /* width: 50%; */
+}
+
+.section p.center {
+    text-align: center;
 }
 
 .section h2.left {
@@ -333,10 +337,13 @@ table .fa {
     border-radius: var(--borderRadius);
 }
 
+.wrapper.prices .item .checkmark i {
+    margin-right: 5px;
+}
 
 .wrapper.prices .item {
     padding: 30px;
-    align-items: center;
+    align-items: flex-start;
     box-shadow: var(--boxShadow);
 }
 
@@ -346,12 +353,32 @@ table .fa {
 }
 
 .wrapper.prices .item ul {
-    list-style: none;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin: 20px auto;
+    padding-left: 30px;
+}
+
+.list-checkmark {
+    list-style: none;
+}
+
+.list-checkmark li::before {
+    content: "✓";
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 26px;
+    padding-right: 10px;
+}
+
+.row.kick-off {
+    align-items: flex-start;
+}
+
+.row.kick-off .col:nth-child(1) {
+    flex: 1 0 60%;
 }
 
 .benefits .wrapper,
