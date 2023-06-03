@@ -31,10 +31,17 @@
     color: var(--black);
 }
 
+.section.coaching h2 {
+    text-align: center;
+}
+
+.section.coaching h3,
+.section.coaching li {
+    color: var(--white);
+}
+
 .section h2 {
     font-size: 46px;
-    /* text-align: center; */
-    /* width: 50%; */
 }
 
 .section p.center {
